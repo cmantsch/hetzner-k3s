@@ -6,7 +6,6 @@ on:
       - 'v*'
 
 jobs:
-
   build_releases:
     name: Build binary - ${{ matrix.binary_os_suffix }}-${{ matrix.binary_arch_suffix }}
     env:

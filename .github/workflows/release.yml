@@ -21,6 +21,7 @@ jobs:
           - runs_on_tag: macos-latest
             binary_os_suffix: macos
             binary_arch_suffix: amd64
+            architectzure: x86_64
           - runs_on_tag: macos-14
             binary_os_suffix: macos
             binary_arch_suffix: arm64
